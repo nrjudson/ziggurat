@@ -188,7 +188,7 @@ else
 if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb))
 {
 	//ScreenShake(4, 10);
-	with (instance_create_layer(x, y, "Instances", oProjectile))
+	with (instance_create_layer(x, y, "Magic", oProjectile))
 	{
 		//spd = 18;
 		speed = 18;

@@ -47,11 +47,27 @@
             }
         },
         {
+            "Key": "12fe84d2-5c35-4c66-9490-2d35c5f99756",
+            "Value": {
+                "id": "9b5654f6-1326-4a5e-85ab-70552ca5ff2c",
+                "resourcePath": "views\\12fe84d2-5c35-4c66-9490-2d35c5f99756.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1b8a1d84-0e94-42ef-8bcd-2a604dc7a388",
             "Value": {
                 "id": "6837d075-0548-474a-9879-182a0da93e62",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1cea9171-aa75-4674-b055-5b91b097ff01",
+            "Value": {
+                "id": "60171f36-bd69-448a-9b11-30a773b60e54",
+                "resourcePath": "views\\1cea9171-aa75-4674-b055-5b91b097ff01.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
