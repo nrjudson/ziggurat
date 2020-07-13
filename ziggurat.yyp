@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "23c8f41a-ea39-4188-bbd1-f88cd23f57e6",
+            "Value": {
+                "id": "891d9dff-983c-4b13-8f9f-d4ac610472e3",
+                "resourcePath": "objects\\object0\\object0.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "576ac39b-7c4d-46ff-aee2-652a8a700262",
             "Value": {
                 "id": "d8f138f0-d870-4e23-ba92-d47763c97dad",
@@ -71,6 +79,14 @@
             }
         },
         {
+            "Key": "6235bdfe-d414-4432-8093-27f9cf79ffc1",
+            "Value": {
+                "id": "38de77dc-b981-4274-ad00-8cad840f3a9a",
+                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "643b9a32-d6f9-42e4-87e1-ea5757748605",
             "Value": {
                 "id": "b0a2677d-ccc1-43f7-9343-04ef4fec9ee2",
@@ -79,11 +95,11 @@
             }
         },
         {
-            "Key": "8245c842-30e4-4458-a395-694a9b01d69d",
+            "Key": "72fdf843-60e7-460e-89e5-776947feb00d",
             "Value": {
-                "id": "c795e8bd-1f2c-4b19-92b7-7e94afc3737e",
-                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
-                "resourceType": "GMObject"
+                "id": "0f2c5bee-2727-444b-9536-edf4ea388f43",
+                "resourcePath": "sprites\\sLRWall\\sLRWall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +188,22 @@
                 "id": "f4e86399-628e-4080-ac54-9f0f08d4dfd8",
                 "resourcePath": "views\\d72ec711-fc80-4637-8aa9-3dac744d7a51.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dfbd4b95-7ed8-4049-a99a-0bb88b9ff5b1",
+            "Value": {
+                "id": "19d8b99a-a938-4342-973c-ced4469827d5",
+                "resourcePath": "objects\\object01\\object01.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e64dc299-644c-4a80-8c3a-47f857eb4255",
+            "Value": {
+                "id": "4a90abe6-acf1-400e-8e5a-6f7cf9241208",
+                "resourcePath": "sprites\\sLRWallBottom\\sLRWallBottom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
