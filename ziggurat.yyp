@@ -55,10 +55,18 @@
             }
         },
         {
+            "Key": "2142a153-cd71-451d-9b84-b8506809d296",
+            "Value": {
+                "id": "4b5640b6-a726-41fe-8ddc-c8e9a43d3abe",
+                "resourcePath": "sprites\\sWall\\sWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23c8f41a-ea39-4188-bbd1-f88cd23f57e6",
             "Value": {
                 "id": "891d9dff-983c-4b13-8f9f-d4ac610472e3",
-                "resourcePath": "objects\\object0\\object0.yy",
+                "resourcePath": "objects\\oLRWall\\oLRWall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -68,6 +76,14 @@
                 "id": "d8f138f0-d870-4e23-ba92-d47763c97dad",
                 "resourcePath": "views\\576ac39b-7c4d-46ff-aee2-652a8a700262.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5f017c68-76e3-4ecd-a5b7-448ff9368eef",
+            "Value": {
+                "id": "226226d9-4eb2-4d64-9c0e-068b721dfebb",
+                "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -111,6 +127,14 @@
             }
         },
         {
+            "Key": "79f9fc7d-5b9d-4761-ac65-93f2d1593f5a",
+            "Value": {
+                "id": "9705927f-d1a3-4287-81b6-9f1df9d68136",
+                "resourcePath": "sprites\\sLWallBottom\\sLWallBottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a7bb3a3-a81a-4faa-8a31-4017a4692b46",
             "Value": {
                 "id": "1d26ebac-0924-421b-9c39-b593356c1352",
@@ -132,6 +156,14 @@
                 "id": "c3a4616e-f7dc-48a6-8819-99b2f52c5670",
                 "resourcePath": "views\\91169dae-bfd8-4c25-bcd3-672f83240670.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "92d3d473-feed-4d43-8c7f-392fe555d06b",
+            "Value": {
+                "id": "30b05116-5ca9-43f1-958d-6b53f31bca9c",
+                "resourcePath": "sprites\\sTBWallBottom\\sTBWallBottom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -162,8 +194,16 @@
             "Key": "a73f3a56-9ab9-4a4b-a232-8a1459f3579c",
             "Value": {
                 "id": "875feb76-4216-49b7-993d-0281b14a6604",
-                "resourcePath": "sprites\\sLRWallBottom\\sLRWallBottom.yy",
+                "resourcePath": "sprites\\sRWallBottom\\sRWallBottom.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "acec436e-e87c-435a-9258-1d097949f232",
+            "Value": {
+                "id": "a7cb7186-a61e-4d4a-b33b-a715b1a860c4",
+                "resourcePath": "objects\\oRWallBottom\\oRWallBottom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -210,7 +250,15 @@
             "Key": "dfbd4b95-7ed8-4049-a99a-0bb88b9ff5b1",
             "Value": {
                 "id": "19d8b99a-a938-4342-973c-ced4469827d5",
-                "resourcePath": "objects\\object01\\object01.yy",
+                "resourcePath": "objects\\oLRWall2\\oLRWall2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7c1d590-e139-46cd-b67c-73daf58da8c8",
+            "Value": {
+                "id": "ef5487f1-26f7-4dd5-99a9-4f09e6bf62b8",
+                "resourcePath": "objects\\oLWallBottom\\oLWallBottom.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -220,6 +268,14 @@
                 "id": "92ab76f1-d7da-4066-96b8-f5610c57f9d5",
                 "resourcePath": "views\\f9060fef-b75d-45f9-bf31-2dc69ee9df28.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb750fba-b70d-46f2-a3e3-2e75b1682f39",
+            "Value": {
+                "id": "12c76cd2-03ce-4d80-979c-805c3a6f5a59",
+                "resourcePath": "objects\\oTBWallBottom\\oTBWallBottom.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

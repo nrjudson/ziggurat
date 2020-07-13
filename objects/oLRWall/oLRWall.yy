@@ -2,7 +2,7 @@
     "id": "23c8f41a-ea39-4188-bbd1-f88cd23f57e6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object0",
+    "name": "oLRWall",
     "eventList": [
         
     ],
