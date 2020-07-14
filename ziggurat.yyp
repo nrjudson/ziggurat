@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "23c8f41a-ea39-4188-bbd1-f88cd23f57e6",
-            "Value": {
-                "id": "891d9dff-983c-4b13-8f9f-d4ac610472e3",
-                "resourcePath": "objects\\oLRWall\\oLRWall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "576ac39b-7c4d-46ff-aee2-652a8a700262",
             "Value": {
                 "id": "d8f138f0-d870-4e23-ba92-d47763c97dad",
@@ -231,14 +223,6 @@
             }
         },
         {
-            "Key": "acec436e-e87c-435a-9258-1d097949f232",
-            "Value": {
-                "id": "a7cb7186-a61e-4d4a-b33b-a715b1a860c4",
-                "resourcePath": "objects\\oRWallBottom\\oRWallBottom.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b4e165af-7211-4b87-8cba-c4cfc1021b94",
             "Value": {
                 "id": "cb0fe993-1154-4488-b5c2-c6ef418628be",
@@ -295,22 +279,6 @@
             }
         },
         {
-            "Key": "dfbd4b95-7ed8-4049-a99a-0bb88b9ff5b1",
-            "Value": {
-                "id": "19d8b99a-a938-4342-973c-ced4469827d5",
-                "resourcePath": "objects\\oLRWall2\\oLRWall2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e7c1d590-e139-46cd-b67c-73daf58da8c8",
-            "Value": {
-                "id": "ef5487f1-26f7-4dd5-99a9-4f09e6bf62b8",
-                "resourcePath": "objects\\oLWallBottom\\oLWallBottom.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
             "Value": {
                 "id": "3c8d5afe-543e-4d88-aef9-7b0e950cb4c2",
@@ -332,14 +300,6 @@
                 "id": "abcbd44a-2177-4616-b522-a7c7080e6041",
                 "resourcePath": "scripts\\LoadLastSave\\LoadLastSave.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "fb750fba-b70d-46f2-a3e3-2e75b1682f39",
-            "Value": {
-                "id": "12c76cd2-03ce-4d80-979c-805c3a6f5a59",
-                "resourcePath": "objects\\oTBWallBottom\\oTBWallBottom.yy",
-                "resourceType": "GMObject"
             }
         }
     ],
