@@ -185,14 +185,62 @@ else
 //	}
 //}
 
-if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb))
+// Frames since last firing
+firingFramesL--;
+firingFramesR--;
+
+if (firingFramesL <= 0  && 
+	(mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderlb)))
 {
-	//ScreenShake(4, 10);
-	with (instance_create_layer(x, y, "Magic", oProjectile))
+	if (eltL == ELEMENT.NONE)
 	{
-		//spd = 18;
-		speed = 18;
-		direction = other.image_angle; // + random_range(-12, 12);
-		image_angle = direction;
+		//ScreenShake(4, 10);
+		with (instance_create_layer(x, y, "Magic", oProjectile))
+		{
+			other.firingFramesL = firingFrames;
+			direction = other.image_angle; // + random_range(-12, 12);
+			image_angle = direction;
+		}
+	}
+	else if (eltL== ELEMENT.FIRE)
+	{
+		// TODO: SOMETHING BETTER
+		//fireController.shootProjectile();
+		
+		//ScreenShake(4, 10);
+		with (instance_create_layer(x, y, "Magic", oFireP1))
+		{
+			other.firingFramesL = firingFrames;
+			direction = other.image_angle; // + random_range(-12, 12);
+			image_angle = direction;
+		}
+	}
+}
+
+if (firingFramesR <= 0  && 
+	(mouse_check_button(mb_right) || gamepad_button_check(0, gp_shoulderrb)))
+{
+	if (eltR == ELEMENT.NONE)
+	{
+		//ScreenShake(4, 10);
+		with (instance_create_layer(x, y, "Magic", oProjectile))
+		{
+			other.firingFramesR = firingFrames;
+			direction = other.image_angle; // + random_range(-12, 12);
+			image_angle = direction;
+		}
+	}
+	else if (eltR == ELEMENT.FIRE)
+	{
+		// TODO: SOMETHING BETTER
+		//fireController.shootProjectile();
+		
+		//ScreenShake(4, 10);
+		with (instance_create_layer(x, y, "Magic", oFireP1))
+		{
+			other.firingFramesR = firingFrames;
+			direction = other.image_angle; // + random_range(-12, 12);
+			image_angle = direction;
+		}
 	}
 }

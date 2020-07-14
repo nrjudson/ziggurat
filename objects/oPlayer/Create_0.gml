@@ -18,4 +18,10 @@ canJump = 0;
 gunKickX = 0;
 gunKickY = 0;
 
+firingFramesL = 0; // The number of frames left before you can fire again (left side)
+firingFramesR = 0; // (right side)
+
+eltR = ELEMENT.NONE;
+eltL = ELEMENT.NONE;
+
 //audio_sound_pitch(snShot, 0.8);

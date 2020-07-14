@@ -1,44 +1,44 @@
 {
-    "id": "411749fc-2921-47cb-81f2-585fd87c19f5",
+    "id": "07035a14-9d61-4bc6-a960-16fc4585ae8e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGame",
+    "name": "oDamageNum",
     "eventList": [
         {
-            "id": "10930b63-b3e8-43d9-b007-ada6ddf1dbaa",
+            "id": "cfb6d730-75d7-45bf-9324-73fb598c70ad",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 70,
-            "eventtype": 9,
-            "m_owner": "411749fc-2921-47cb-81f2-585fd87c19f5"
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "07035a14-9d61-4bc6-a960-16fc4585ae8e"
         },
         {
-            "id": "24b53736-7c14-4626-89a7-65ee4be5247a",
+            "id": "5939b4e3-f666-470b-af50-b121bc7664cd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "411749fc-2921-47cb-81f2-585fd87c19f5"
+            "m_owner": "07035a14-9d61-4bc6-a960-16fc4585ae8e"
         },
         {
-            "id": "f3f1d76b-6e21-4c1b-a574-86ae04689e99",
+            "id": "3b76fb68-6877-4bff-97e4-39acf5019440",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "411749fc-2921-47cb-81f2-585fd87c19f5"
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "07035a14-9d61-4bc6-a960-16fc4585ae8e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

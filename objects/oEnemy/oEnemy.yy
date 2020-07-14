@@ -1,18 +1,18 @@
 {
-    "id": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
+    "id": "6c7d46d0-27ee-4188-8907-78340f6a4bd0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oProjectile",
+    "name": "oEnemy",
     "eventList": [
         {
-            "id": "c0f17199-888a-4617-bc7d-68399b031003",
+            "id": "56d07b9b-20e3-4864-83ec-e91b62369b9e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f3099822-8d71-4704-8d43-d4249b7bcfc2"
+            "eventtype": 4,
+            "m_owner": "6c7d46d0-27ee-4188-8907-78340f6a4bd0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "1b94f8cf-5988-4617-a4f5-501556c252d4",
+            "id": "2d08f73d-53fe-48c0-88ea-dfc3e8285538",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,26 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
-            "varName": "dmg",
-            "varType": 0
-        },
-        {
-            "id": "8f43acb6-e884-40b1-bfeb-c857d6b8d297",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
-            "varName": "firingFrames",
+            "value": "50",
+            "varName": "hp",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "b4e165af-7211-4b87-8cba-c4cfc1021b94",
+    "spriteId": "6235bdfe-d414-4432-8093-27f9cf79ffc1",
     "visible": true
 }

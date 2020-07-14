@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07035a14-9d61-4bc6-a960-16fc4585ae8e",
+            "Value": {
+                "id": "3d57f5b1-a2cd-4d50-9d7f-5ef2332cdd01",
+                "resourcePath": "objects\\oDamageNum\\oDamageNum.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b887f8e-57b7-466e-9974-f814ef7bd54a",
             "Value": {
                 "id": "c5ef2989-6ead-4723-af52-590ccd3c5d9e",
@@ -79,10 +87,42 @@
             }
         },
         {
+            "Key": "347c5f9d-ac7d-4ee7-8066-bfece4fc1f9d",
+            "Value": {
+                "id": "5c9db5b6-9788-4248-9807-d1d5cf31c751",
+                "resourcePath": "rooms\\room001\\room001.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3b947dd3-a4d5-457e-8f09-1e207ea6e5a8",
+            "Value": {
+                "id": "6dc8ed32-5fe0-46bc-bfd4-406bcde22714",
+                "resourcePath": "objects\\oFireP2\\oFireP2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "411749fc-2921-47cb-81f2-585fd87c19f5",
             "Value": {
                 "id": "fe67a53f-e381-475c-9723-d080820fd11d",
                 "resourcePath": "objects\\oGame\\oGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4262f5c6-f543-49cf-bc7b-998e8ccd963f",
+            "Value": {
+                "id": "2ff9f2ff-6be7-4ec5-aecd-039297708d08",
+                "resourcePath": "objects\\oFireP\\oFireP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b9c99df-9f1d-4181-89f6-9c2f066a95bd",
+            "Value": {
+                "id": "085c99fd-a41e-41ca-ad0d-31b057909e7b",
+                "resourcePath": "objects\\oFireP1\\oFireP1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -132,6 +172,14 @@
                 "id": "4ddeb2ef-777e-4ca5-bca0-ff5bb83e1b8c",
                 "resourcePath": "sprites\\sLRWall2\\sLRWall2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c7d46d0-27ee-4188-8907-78340f6a4bd0",
+            "Value": {
+                "id": "62421169-3f7d-4f4b-9025-e2eee4591dae",
+                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +295,30 @@
             }
         },
         {
+            "Key": "bb7345c9-8df1-43ca-b495-503c42f46894",
+            "Value": {
+                "id": "b9a9421a-6413-463f-9687-b61603182ea9",
+                "resourcePath": "sprites\\sFireP1\\sFireP1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be4e260a-cda2-4fba-95f4-b2b30642731a",
+            "Value": {
+                "id": "4eed9396-2e3e-4ec2-84a0-e8202edacf96",
+                "resourcePath": "fonts\\fSporty24\\fSporty24.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "bf699837-27de-4eed-a5c8-f20d6eceb707",
+            "Value": {
+                "id": "4dffc53b-436c-487e-82ee-ed4e418082ca",
+                "resourcePath": "sprites\\sFireP2\\sFireP2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c3ebdd72-2b70-4fb6-ac27-5f602114d27c",
             "Value": {
                 "id": "eaf82ea3-7cee-4b7b-a3e5-34b3f7831659",
@@ -300,6 +372,14 @@
                 "id": "92ab76f1-d7da-4066-96b8-f5610c57f9d5",
                 "resourcePath": "views\\f9060fef-b75d-45f9-bf31-2dc69ee9df28.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f99a4437-34e2-4bcc-880b-d1fd18d67ed6",
+            "Value": {
+                "id": "76b5d918-a192-4706-943b-684b2aadabaa",
+                "resourcePath": "fonts\\fDamage\\fDamage.yy",
+                "resourceType": "GMFont"
             }
         },
         {
