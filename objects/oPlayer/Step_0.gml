@@ -185,3 +185,14 @@ else
 //	}
 //}
 
+if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb))
+{
+	//ScreenShake(4, 10);
+	with (instance_create_layer(x, y, "Instances", oProjectile))
+	{
+		//spd = 18;
+		speed = 18;
+		direction = other.image_angle; // + random_range(-12, 12);
+		image_angle = direction;
+	}
+}
