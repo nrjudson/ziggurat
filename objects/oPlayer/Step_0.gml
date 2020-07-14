@@ -11,12 +11,18 @@ if (has_control)
 		controller = 0;
 	
 	// Get player input from controller
-	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.05)
+	hlaxis = gamepad_axis_value(0, gp_axislh);
+	vlaxis = gamepad_axis_value(0, gp_axislv);
+	hraxis = gamepad_axis_value(0, gp_axisrh);
+	vraxis = gamepad_axis_value(0, gp_axisrv);
+	if (abs(hlaxis) > deadzone || abs(vlaxis) > deadzone
+		|| abs(hraxis) > deadzone || abs(vraxis) > deadzone)
 	{
 		key_left = abs(min(gamepad_axis_value(0, gp_axislh), 0));
 		key_right = max(gamepad_axis_value(0, gp_axislh), 0);
 		key_down = max(gamepad_axis_value(0, gp_axislv), 0);
 		key_up = abs(min(gamepad_axis_value(0, gp_axislv), 0));
+		
 		controller = 1;
 	}
 
@@ -38,28 +44,28 @@ else
 }
 
 
-// Calculate movement
+// Calculate movement, deadzone stuff
 var hmove = key_right - key_left; // -1 or 1
 // For controller, make hmove 0 or 1 if it's very close
-if (hmove < 0.05 && hmove > 0)
+if (hmove < deadzone && hmove > 0)
 	hmove = 0;
-else if (hmove > -0.05 && hmove < 0)
+else if (hmove > -deadzone && hmove < 0)
 	hmove = 0;
-else if (hmove > 0.95 && hmove < 1)
+else if (hmove > 1-deadzone && hmove < 1)
 	hmove = 1;
-else if (hmove < -0.95 && hmove > -1)
+else if (hmove < -1+deadzone && hmove > -1)
 	hmove = -1;
 var vmove = key_down - key_up;
-if (vmove < 0.05 && vmove > 0)
+if (vmove < deadzone && vmove > 0)
 	vmove = 0;
-else if (vmove > -0.05 && vmove < 0)
+else if (vmove > -deadzone && vmove < 0)
 	vmove = 0;
-else if (vmove > 0.95 && vmove < 1)
+else if (vmove > 1-deadzone && vmove < 1)
 	vmove = 1;
-else if (vmove < -0.95 && vmove > -1)
+else if (vmove < -1+deadzone && vmove > -1)
 	vmove = -1;
 
-var inTheAir = !place_meeting(x, y+1, oWall);
+//var inTheAir = !place_meeting(x, y+1, oWall);
 
 //var movingFasterThanRunning = true;
 //if (abs(hsp) <= maxsp)
@@ -96,7 +102,7 @@ gunKickY = 0;
 //	}
 //	hsp = 0;
 //}
-//x = x + hsp;
+x = x + hsp;
 
 //// Vertical collision
 //if (place_meeting(x, y+vsp, oWall))
@@ -108,66 +114,74 @@ gunKickY = 0;
 //	}
 //	vsp = 0;
 //}
-//y = y + vsp;
+y = y + vsp;
 
 
 ///////////////
 // Animation
 ///////////////
-
-var aimSide = sign(mouse_x - x); // +1 for mouse on the right of the player, -1 otherwise
-if (aimSide != 0)
+if (controller)
 {
-	image_xscale = aimSide;
+	image_angle = point_direction(0, 0, hraxis, vraxis);
+}
+else
+{
+	image_angle = point_direction(x, y, mouse_x, mouse_y);
 }
 
-if (inTheAir) // If player is in the air
-{
-	sprite_index = sPlayerA;
-	image_speed = 0;
-	if (sign(vsp) > 0) 
-		image_index = 1; // Falling
-	else 
-		image_index = 0; // Jumping
-}
-else // Player is on the ground
-{
-	canJump = 10; // 10 frames left to jump
-	if (sprite_index == sPlayerA) 
-	{
-		// Player WAS just in the air, so he's landing
-		// Make some dust appear under the player when they land
-		var dustBits = 5;
-		if (key_down)
-		{
-			// if we were just in the air, then play a sfx now that we landed
-			audio_sound_pitch(snLanding, choose(0.4, 0.5, 0.6)); // adjust pitch randomly slightly
-			audio_play_sound(snLanding, 10, false);
-			dustBits = 25;
-		}
-		else
-		{
-			// if we were just in the air, then play a sfx now that we landed
-			audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2)); // adjust pitch randomly slightly
-			audio_play_sound(snLanding, 10, false);
-			dustBits = 5;
-		}
-		repeat(dustBits)
-		{
-			with (instance_create_layer(x, bbox_bottom, "Bullets", oDust))
-			{
-				vsp = 0;
-			}
-		}
-	}
-	image_speed = 1;
-	if (hsp == 0)
-		sprite_index = sPlayer; // Standing
-	else
-	{
-		sprite_index = sPlayerR; // Running
-		if (aimSide != sign(hsp))
-			sprite_index = sPlayerRb; // Run backwards
-	}
-}
+//var aimSide = sign(mouse_x - x); // +1 for mouse on the right of the player, -1 otherwise
+//if (aimSide != 0)
+//{
+//	image_xscale = aimSide;
+//}
+
+//if (inTheAir) // If player is in the air
+//{
+//	sprite_index = sPlayerA;
+//	image_speed = 0;
+//	if (sign(vsp) > 0) 
+//		image_index = 1; // Falling
+//	else 
+//		image_index = 0; // Jumping
+//}
+//else // Player is on the ground
+//{
+//	canJump = 10; // 10 frames left to jump
+//	if (sprite_index == sPlayerA) 
+//	{
+//		// Player WAS just in the air, so he's landing
+//		// Make some dust appear under the player when they land
+//		var dustBits = 5;
+//		if (key_down)
+//		{
+//			// if we were just in the air, then play a sfx now that we landed
+//			audio_sound_pitch(snLanding, choose(0.4, 0.5, 0.6)); // adjust pitch randomly slightly
+//			audio_play_sound(snLanding, 10, false);
+//			dustBits = 25;
+//		}
+//		else
+//		{
+//			// if we were just in the air, then play a sfx now that we landed
+//			audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2)); // adjust pitch randomly slightly
+//			audio_play_sound(snLanding, 10, false);
+//			dustBits = 5;
+//		}
+//		repeat(dustBits)
+//		{
+//			with (instance_create_layer(x, bbox_bottom, "Bullets", oDust))
+//			{
+//				vsp = 0;
+//			}
+//		}
+//	}
+//	image_speed = 1;
+//	if (hsp == 0)
+//		sprite_index = sPlayer; // Standing
+//	else
+//	{
+//		sprite_index = sPlayerR; // Running
+//		if (aimSide != sign(hsp))
+//			sprite_index = sPlayerRb; // Run backwards
+//	}
+//}
 
