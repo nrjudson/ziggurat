@@ -13,6 +13,7 @@ if (other.hp <= 0)
 		instance_destroy();
 	}
 }
+other.flashTimeToLive = 4;
 
 if (destroyOnImpact)
 {

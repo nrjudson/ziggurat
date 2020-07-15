@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1284c1fe-eb83-46f8-8e22-54f2f3984a3f",
+            "Value": {
+                "id": "13ea35d8-d880-4fa6-90ff-1338cdb65d1f",
+                "resourcePath": "objects\\oWaterP2\\oWaterP2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12fe84d2-5c35-4c66-9490-2d35c5f99756",
             "Value": {
                 "id": "9b5654f6-1326-4a5e-85ab-70552ca5ff2c",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "4d850ce1-f452-4794-b068-2ca63d76d775",
+            "Value": {
+                "id": "5353d31c-21c8-4ed1-843b-c079e0d969e2",
+                "resourcePath": "shaders\\shBurn\\shBurn.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "576ac39b-7c4d-46ff-aee2-652a8a700262",
             "Value": {
                 "id": "d8f138f0-d870-4e23-ba92-d47763c97dad",
@@ -151,10 +167,34 @@
             }
         },
         {
+            "Key": "5ee1b4fe-27e5-4a3e-9d48-c30809439a26",
+            "Value": {
+                "id": "9861dd73-0125-4a9a-93cf-83ae78512403",
+                "resourcePath": "objects\\oWaterP\\oWaterP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5f017c68-76e3-4ecd-a5b7-448ff9368eef",
             "Value": {
                 "id": "226226d9-4eb2-4d64-9c0e-068b721dfebb",
                 "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5f288154-7205-42af-bdac-74179f345d3e",
+            "Value": {
+                "id": "878301d9-f1ee-4d1f-85dc-802ccc8395f8",
+                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "5f871459-9e61-4336-81aa-2bc90cf4259d",
+            "Value": {
+                "id": "700c0ad9-d6e0-45d7-9bc7-24b89e6b89d4",
+                "resourcePath": "objects\\oShootable\\oShootable.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -199,10 +239,18 @@
             }
         },
         {
+            "Key": "6ea6a30c-6ff6-480a-9861-bb616805c8c6",
+            "Value": {
+                "id": "198f2d3b-90e9-4978-974b-45a22e4a02f8",
+                "resourcePath": "objects\\oWaterP1\\oWaterP1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "701d576a-173d-41d9-b0e1-569297928f9e",
             "Value": {
                 "id": "36e1e49e-7f15-4c74-a0bd-e9bbe9baf646",
-                "resourcePath": "objects\\demoLevelManager\\demoLevelManager.yy",
+                "resourcePath": "objects\\oDemoLevelManager\\oDemoLevelManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -260,6 +308,14 @@
                 "id": "30b05116-5ca9-43f1-958d-6b53f31bca9c",
                 "resourcePath": "sprites\\sBWall\\sBWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97811c7e-c014-42b1-8b93-e22b7165f130",
+            "Value": {
+                "id": "df1b44f0-ded7-417d-a987-3ab2440024e1",
+                "resourcePath": "shaders\\shWet\\shWet.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -436,6 +492,14 @@
                 "id": "4e80a917-5d2d-45d3-b65b-951703cbc626",
                 "resourcePath": "views\\de07dedd-1521-45d6-b301-856cec84129f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e11ebea7-d9b1-45bb-a139-61be50054328",
+            "Value": {
+                "id": "03cce8fc-acdb-4e94-b67b-51c76cda45d3",
+                "resourcePath": "objects\\oWaterP3\\oWaterP3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
