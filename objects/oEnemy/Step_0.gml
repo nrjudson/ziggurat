@@ -1,6 +1,8 @@
-/// @description 
+/// @description Elemental stuff
 
-if (isBurning)
+// FIRE
+burnTimeToLive--; // reduce burn time always
+if (burnTimeToLive > 0)
 {
 	burnFrames--;
 	if (burnFrames <= 0)
@@ -14,13 +16,23 @@ if (isBurning)
 			isBurnDamage = true;
 		}
 	}
-	burnTimeToLive--;
-	if (burnTimeToLive <= 0)
-	{
-		isBurning = false;
-	}
 }
 
+// WATER
+wetTimeToLive--; // reduce wet time always
+// WATER/WIND PUSH
+// TODO: make this smarter later
+x += (pushX / weight) * pushCoefficient;
+y += (pushY / weight) * pushCoefficient;
+pushX *= 0.8;
+pushY *= 0.8;
+if (pushX < 0.01) pushX = 0;
+if (pushY < 0.01) pushY = 0;
+
+
+
+
+// Is it dead?
 if (hp <= 0)
 {
 	instance_destroy();

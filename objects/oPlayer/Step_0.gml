@@ -202,7 +202,7 @@ if (firingFramesL <= 0  &&
 			image_angle = direction;
 		}
 	}
-	else if (eltL== ELEMENT.FIRE)
+	else if (eltL == ELEMENT.FIRE)
 	{
 		var inst;
 		if (global.fireLevel == 1)
@@ -215,6 +215,22 @@ if (firingFramesL <= 0  &&
 		{
 			other.firingFramesL = firingFrames;
 			direction = other.image_angle; // + random_range(-12, 12);
+			image_angle = direction;
+		}
+	}
+	else if (eltL == ELEMENT.WATER)
+	{
+		var inst;
+		if (global.waterLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oWaterP1);
+		else if (global.waterLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oWaterP2);
+		else if (global.waterLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oWaterP3);
+		with (inst)
+		{
+			other.firingFramesL = firingFrames;
+			direction = other.image_angle + random_range(-2, 2);
 			image_angle = direction;
 		}
 	}
@@ -251,6 +267,22 @@ if (firingFramesR <= 0  &&
 		{
 			other.firingFramesR = firingFrames;
 			direction = other.image_angle; // + random_range(-12, 12);
+			image_angle = direction;
+		}
+	}
+	else if (eltL == ELEMENT.WATER)
+	{
+		var inst;
+		if (global.waterLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oWaterP1);
+		else if (global.waterLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oWaterP2);
+		else if (global.waterLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oWaterP3);
+		with (inst)
+		{
+			other.firingFramesR = firingFrames;
+			direction = other.image_angle + random_range(-2, 2);
 			image_angle = direction;
 		}
 	}

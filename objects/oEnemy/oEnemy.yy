@@ -55,6 +55,20 @@
             "value": "50",
             "varName": "hp",
             "varType": 0
+        },
+        {
+            "id": "8ccf6fde-cace-473c-a48e-d9c3878af2b9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "12",
+            "varName": "weight",
+            "varType": 0
         }
     ],
     "solid": false,
