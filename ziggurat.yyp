@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "062dd3b3-3b28-4f82-96c5-07ac4d295f36",
+            "Value": {
+                "id": "61633b72-b9ba-4416-a9f5-71054eece4ad",
+                "resourcePath": "sprites\\sFireP3\\sFireP3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07035a14-9d61-4bc6-a960-16fc4585ae8e",
             "Value": {
                 "id": "3d57f5b1-a2cd-4d50-9d7f-5ef2332cdd01",
@@ -183,10 +191,26 @@
             }
         },
         {
+            "Key": "701d576a-173d-41d9-b0e1-569297928f9e",
+            "Value": {
+                "id": "36e1e49e-7f15-4c74-a0bd-e9bbe9baf646",
+                "resourcePath": "objects\\demoLevelManager\\demoLevelManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "72fdf843-60e7-460e-89e5-776947feb00d",
             "Value": {
                 "id": "0f2c5bee-2727-444b-9536-edf4ea388f43",
                 "resourcePath": "sprites\\sRWall\\sRWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "74b69cea-d48d-463d-8fa4-4b639e042297",
+            "Value": {
+                "id": "c962c751-b9b5-45e7-997b-9ce47b4ceec6",
+                "resourcePath": "sprites\\sWaterP1\\sWaterP1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -263,6 +287,14 @@
             }
         },
         {
+            "Key": "a3adb8c7-88c3-4c91-8806-54a08c86d916",
+            "Value": {
+                "id": "47b48208-eeee-4524-8286-c7eba20c3e2f",
+                "resourcePath": "sprites\\sWaterP3\\sWaterP3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a4bcee27-826c-4a5d-9e85-3e2fbafeba1e",
             "Value": {
                 "id": "28e42b18-bc72-40d7-8e16-5f42497fb310",
@@ -276,6 +308,14 @@
                 "id": "ff131aea-227c-4d77-b112-caa807bc4625",
                 "resourcePath": "sprites\\sLTWall\\sLTWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6f63976-233c-4809-a388-d72fca5eae31",
+            "Value": {
+                "id": "164ebefc-32a8-446d-980f-4e011e26952c",
+                "resourcePath": "objects\\oFireP3\\oFireP3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -340,6 +380,14 @@
                 "id": "eaf82ea3-7cee-4b7b-a3e5-34b3f7831659",
                 "resourcePath": "views\\c3ebdd72-2b70-4fb6-ac27-5f602114d27c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c535a471-5783-4d3e-9e9f-19a6af826fe8",
+            "Value": {
+                "id": "5dafc41d-6cdd-45fe-9cac-80bd4e54ac85",
+                "resourcePath": "sprites\\sWaterP2\\sWaterP2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

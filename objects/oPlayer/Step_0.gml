@@ -209,6 +209,8 @@ if (firingFramesL <= 0  &&
 			inst = instance_create_layer(x, y, "Magic", oFireP1);
 		else if (global.fireLevel == 2)
 			inst = instance_create_layer(x, y, "Magic", oFireP2);
+		else if (global.fireLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oFireP3);
 		with (inst)
 		{
 			other.firingFramesL = firingFrames;
@@ -243,6 +245,8 @@ if (firingFramesR <= 0  &&
 			inst = instance_create_layer(x, y, "Magic", oFireP1);
 		else if (global.fireLevel == 2)
 			inst = instance_create_layer(x, y, "Magic", oFireP2);
+		else if (global.fireLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oFireP3);
 		with (inst)
 		{
 			other.firingFramesR = firingFrames;

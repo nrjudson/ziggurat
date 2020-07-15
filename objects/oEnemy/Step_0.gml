@@ -21,8 +21,6 @@ if (isBurning)
 	}
 }
 
-
-
 if (hp <= 0)
 {
 	instance_destroy();

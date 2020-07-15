@@ -24,3 +24,12 @@ enum ELEMENT
 
 global.fireLevel = 1;
 global.fireExp = 0;
+global.waterLevel = 1;
+global.waterExp = 0;
+global.earthLevel = 1;
+global.earthExp = 0;
+global.windLevel = 1;
+global.windExp = 0;
+
+expLevel2 = 10;
+expLevel3 = 20;
