@@ -204,11 +204,12 @@ if (firingFramesL <= 0  &&
 	}
 	else if (eltL== ELEMENT.FIRE)
 	{
-		// TODO: SOMETHING BETTER
-		//fireController.shootProjectile();
-		
-		//ScreenShake(4, 10);
-		with (instance_create_layer(x, y, "Magic", oFireP1))
+		var inst;
+		if (global.fireLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oFireP1);
+		else if (global.fireLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oFireP2);
+		with (inst)
 		{
 			other.firingFramesL = firingFrames;
 			direction = other.image_angle; // + random_range(-12, 12);
@@ -236,7 +237,13 @@ if (firingFramesR <= 0  &&
 		//fireController.shootProjectile();
 		
 		//ScreenShake(4, 10);
-		with (instance_create_layer(x, y, "Magic", oFireP1))
+		
+		var inst;
+		if (global.fireLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oFireP1);
+		else if (global.fireLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oFireP2);
+		with (inst)
 		{
 			other.firingFramesR = firingFrames;
 			direction = other.image_angle; // + random_range(-12, 12);

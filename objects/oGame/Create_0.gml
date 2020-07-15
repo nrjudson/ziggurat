@@ -9,9 +9,9 @@ display_set_gui_size(RES_W, RES_H);
 randomise(); // Makes random choices later actually random
 //#macro DICEROLL irandom(6) // cool save for later
 
-//global.kills = 0;
 
 
+global.playerScore = 0;
 
 enum ELEMENT
 {
@@ -21,3 +21,6 @@ enum ELEMENT
 	FIRE,
 	WATER
 }
+
+global.fireLevel = 1;
+global.fireExp = 0;

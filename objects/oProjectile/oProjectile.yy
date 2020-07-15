@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "f3099822-8d71-4704-8d43-d4249b7bcfc2"
+        },
+        {
+            "id": "43941320-dfec-48dc-bff2-1a5479032527",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "6c7d46d0-27ee-4188-8907-78340f6a4bd0",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f3099822-8d71-4704-8d43-d4249b7bcfc2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "3",
             "varName": "dmg",
             "varType": 0
         },
@@ -56,9 +66,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "7",
             "varName": "firingFrames",
             "varType": 0
+        },
+        {
+            "id": "d329b746-1acb-4245-b45d-398efe2c1cd2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "destroyOnImpact",
+            "varType": 3
         }
     ],
     "solid": false,
