@@ -270,7 +270,7 @@ if (firingFramesR <= 0  &&
 			image_angle = direction;
 		}
 	}
-	else if (eltL == ELEMENT.WATER)
+	else if (eltR == ELEMENT.WATER)
 	{
 		var inst;
 		if (global.waterLevel == 1)

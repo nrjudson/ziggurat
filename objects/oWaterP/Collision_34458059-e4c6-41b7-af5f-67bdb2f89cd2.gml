@@ -5,7 +5,7 @@
 event_inherited();
 
 other.burnTimeToLive = 0; // Take off any burning
-other.wetFrames = 60*3; // Make the other player wet for 3 seconds
+other.wetTimeToLive = wetFrames; // Make the other player wet for 3 seconds
 
 // Push the enemy back with the weight of the water
 var pushDirection = point_direction(x, y, other.x, other.y);

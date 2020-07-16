@@ -1,7 +1,10 @@
 /// @description Elemental stuff
 
+// FLASH (getting hit)
+flashTimeToLive = max(flashTimeToLive-1, 0);
+
 // FIRE
-burnTimeToLive--; // reduce burn time always
+burnTimeToLive = max(burnTimeToLive-1, 0); // reduce burn time always
 if (burnTimeToLive > 0)
 {
 	burnFrames--;
@@ -19,7 +22,7 @@ if (burnTimeToLive > 0)
 }
 
 // WATER
-wetTimeToLive--; // reduce wet time always
+wetTimeToLive = max(wetTimeToLive-1, 0); // reduce wet time always
 // WATER/WIND PUSH
 // TODO: make this smarter later
 x += (pushX / weight) * pushCoefficient;

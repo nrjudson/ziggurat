@@ -1,23 +1,43 @@
 {
-    "id": "5ee1b4fe-27e5-4a3e-9d48-c30809439a26",
+    "id": "5f871459-9e61-4336-81aa-2bc90cf4259d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWaterP",
+    "name": "oShootable",
     "eventList": [
         {
-            "id": "34458059-e4c6-41b7-af5f-67bdb2f89cd2",
+            "id": "fa6aaf3c-3798-485a-b77b-8f899c882ec6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "6c7d46d0-27ee-4188-8907-78340f6a4bd0",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "5ee1b4fe-27e5-4a3e-9d48-c30809439a26"
+            "eventtype": 8,
+            "m_owner": "5f871459-9e61-4336-81aa-2bc90cf4259d"
+        },
+        {
+            "id": "e47a3ce6-1bb7-4e80-b483-749785822af0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5f871459-9e61-4336-81aa-2bc90cf4259d"
+        },
+        {
+            "id": "c6a41cf4-230f-48ca-90b0-24f226521137",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5f871459-9e61-4336-81aa-2bc90cf4259d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "54323f21-3071-46ea-9dd0-ec4890aa9120",
+            "id": "4ae85404-1e6e-4fe6-99c0-2e2306f2dbee",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,12 +62,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "7",
-            "varName": "weight",
+            "value": "50",
+            "varName": "hp",
             "varType": 0
         },
         {
-            "id": "95288c1e-0495-4213-846b-4899e9b0c922",
+            "id": "7835ea8f-4aa1-4f36-a2af-d06a6b28553c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -56,8 +76,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "180",
-            "varName": "wetFrames",
+            "value": "12",
+            "varName": "weight",
             "varType": 0
         }
     ],

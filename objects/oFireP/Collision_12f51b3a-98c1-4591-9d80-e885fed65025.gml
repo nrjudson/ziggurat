@@ -5,7 +5,7 @@
 event_inherited();
 
 // Set the enemy on fire, if they're not wet
-if (other.wetFrames <= 0)
+if (other.wetTimeToLive <= 0)
 {
 	other.burnTimeToLive = 60*15; // 15 seconds of burn
 	other.burnDamage = burnDamage;
