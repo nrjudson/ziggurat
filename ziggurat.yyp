@@ -147,6 +147,13 @@
             "Value": {
                 "id": "1779c99c-918a-4b6f-a8f9-d3409fbb9950",
                 "resourcePath": "sprites\\sEarthP1\\sEarthP1.yy",
+            }
+        },
+        {
+            "Key": "49fdbae8-7505-4a76-b625-8946ec48c6a4",
+            "Value": {
+                "id": "d3c7fb4f-e649-4fdb-a7f1-bb663c790f88",
+                "resourcePath": "sprites\\sRPlayer\\sRPlayer.yy",
                 "resourceType": "GMSprite"
             }
         },
