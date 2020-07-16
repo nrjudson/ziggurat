@@ -122,12 +122,16 @@ y = y + vsp;
 ///////////////
 if (controller)
 {
-	image_angle = point_direction(0, 0, hraxis, vraxis);
+	lookDirection = point_direction(0, 0, hraxis, vraxis);
 }
 else
 {
-	image_angle = point_direction(x, y, mouse_x, mouse_y);
+	lookDirection = point_direction(x, y, mouse_x, mouse_y);
 }
+if ((lookDirection < 90 && lookDirection >= 0) || (lookDirection > 270))
+	image_xscale = 1;
+else
+	image_xscale = -1;
 
 //var aimSide = sign(mouse_x - x); // +1 for mouse on the right of the player, -1 otherwise
 //if (aimSide != 0)
@@ -202,7 +206,7 @@ if (firingFramesL <= 0  &&
 		with (instance_create_layer(x, y, "Magic", oProjectile))
 		{
 			other.firingFramesL = firingFrames;
-			direction = other.image_angle; // + random_range(-12, 12);
+			direction = other.lookDirection; // + random_range(-12, 12);
 			image_angle = direction;
 		}
 	}
@@ -218,7 +222,7 @@ if (firingFramesL <= 0  &&
 		with (inst)
 		{
 			other.firingFramesL = firingFrames;
-			direction = other.image_angle; // + random_range(-12, 12);
+			direction = other.lookDirection; // + random_range(-12, 12);
 			image_angle = direction;
 		}
 	}
@@ -234,7 +238,7 @@ if (firingFramesL <= 0  &&
 		with (inst)
 		{
 			other.firingFramesL = firingFrames;
-			direction = other.image_angle + random_range(-3, 3);
+			direction = other.lookDirection + random_range(-3, 3);
 			image_angle = direction;
 		}
 	}
@@ -250,7 +254,7 @@ if (firingFramesL <= 0  &&
 		with (inst)
 		{
 			other.firingFramesL = firingFrames;
-			direction = other.image_angle;
+			direction = other.lookDirection;
 			image_angle = direction;
 		}
 	}
@@ -269,7 +273,7 @@ if (firingFramesR <= 0  &&
 		with (instance_create_layer(x, y, "Magic", oProjectile))
 		{
 			other.firingFramesR = firingFrames;
-			direction = other.image_angle; // + random_range(-12, 12);
+			direction = other.lookDirection; // + random_range(-12, 12);
 			image_angle = direction;
 		}
 	}
@@ -290,7 +294,7 @@ if (firingFramesR <= 0  &&
 		with (inst)
 		{
 			other.firingFramesR = firingFrames;
-			direction = other.image_angle; // + random_range(-12, 12);
+			direction = other.lookDirection; // + random_range(-12, 12);
 			image_angle = direction;
 		}
 	}
@@ -306,7 +310,7 @@ if (firingFramesR <= 0  &&
 		with (inst)
 		{
 			other.firingFramesR = firingFrames;
-			direction = other.image_angle + random_range(-3, 3);
+			direction = other.lookDirection + random_range(-3, 3);
 			image_angle = direction;
 		}
 	}
@@ -322,7 +326,7 @@ if (firingFramesR <= 0  &&
 		with (inst)
 		{
 			other.firingFramesR = firingFrames;
-			direction = other.image_angle;
+			direction = other.lookDirection;
 			image_angle = direction;
 		}
 	}

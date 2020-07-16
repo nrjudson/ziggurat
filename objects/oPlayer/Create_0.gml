@@ -13,6 +13,8 @@ deadzone = 0.09;
 
 has_control = true;
 
+lookDirection = 0; // The "direction" of the player, but don't want to use a built in variable
+
 canJump = 0;
 
 gunKickX = 0;
