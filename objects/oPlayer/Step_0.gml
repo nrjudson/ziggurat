@@ -189,6 +189,10 @@ else
 firingFramesL--;
 firingFramesR--;
 
+//////////////////////////////
+// LEFT SIDE
+//////////////////////////////
+
 if (firingFramesL <= 0  && 
 	(mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderlb)))
 {
@@ -230,11 +234,31 @@ if (firingFramesL <= 0  &&
 		with (inst)
 		{
 			other.firingFramesL = firingFrames;
-			direction = other.image_angle + random_range(-2, 2);
+			direction = other.image_angle + random_range(-3, 3);
+			image_angle = direction;
+		}
+	}
+	else if (eltL == ELEMENT.EARTH)
+	{
+		var inst;
+		if (global.earthLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oEarthP1);
+		else if (global.earthLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oEarthP2);
+		else if (global.earthLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oEarthP3);
+		with (inst)
+		{
+			other.firingFramesL = firingFrames;
+			direction = other.image_angle;
 			image_angle = direction;
 		}
 	}
 }
+
+//////////////////////////////
+// RIGHT SIDE
+//////////////////////////////
 
 if (firingFramesR <= 0  && 
 	(mouse_check_button(mb_right) || gamepad_button_check(0, gp_shoulderrb)))
@@ -282,7 +306,23 @@ if (firingFramesR <= 0  &&
 		with (inst)
 		{
 			other.firingFramesR = firingFrames;
-			direction = other.image_angle + random_range(-2, 2);
+			direction = other.image_angle + random_range(-3, 3);
+			image_angle = direction;
+		}
+	}
+	else if (eltR == ELEMENT.EARTH)
+	{
+		var inst;
+		if (global.earthLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oEarthP1);
+		else if (global.earthLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oEarthP2);
+		else if (global.earthLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oEarthP3);
+		with (inst)
+		{
+			other.firingFramesR = firingFrames;
+			direction = other.image_angle;
 			image_angle = direction;
 		}
 	}

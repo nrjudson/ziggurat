@@ -1,66 +1,48 @@
 {
-    "id": "a6f63976-233c-4809-a388-d72fca5eae31",
+    "id": "dbfc6ccc-f96d-422c-8efc-b9d400695c2c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oFireP3",
+    "name": "oEarthP1",
     "eventList": [
         {
-            "id": "5680a803-f5cd-4ca1-b6be-05e3d05b13c2",
+            "id": "5cf199b8-d891-4211-a749-e3af267158db",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a6f63976-233c-4809-a388-d72fca5eae31"
-        },
-        {
-            "id": "15f89822-d3d3-4689-a6f4-ec662f4af204",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a6f63976-233c-4809-a388-d72fca5eae31"
+            "m_owner": "dbfc6ccc-f96d-422c-8efc-b9d400695c2c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "f8129eb8-911e-4a98-a31d-73723f0ec6c0",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "4262f5c6-f543-49cf-bc7b-998e8ccd963f",
-            "propertyId": "6c9f5d27-041e-4d49-af65-e7a4c178450a",
-            "value": "16"
-        },
-        {
-            "id": "ead60ff3-2017-48ad-bd07-b5048ee5b53f",
+            "id": "77be49c2-36f3-4069-a893-8a230bf46c83",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
             "propertyId": "1b94f8cf-5988-4617-a4f5-501556c252d4",
-            "value": "25"
+            "value": "15"
         },
         {
-            "id": "938ade9b-3b32-4e12-9f27-c3ab285f06d7",
+            "id": "0f7f9ae5-7a13-4d31-933a-f40bd6197d55",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
             "propertyId": "8f43acb6-e884-40b1-bfeb-c857d6b8d297",
-            "value": "35"
+            "value": "23"
         },
         {
-            "id": "c6e6a0fa-26e6-40e3-ac26-1fe0088b38aa",
+            "id": "d039b304-f855-4e80-8bf2-4bd2fa2a914d",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "f3099822-8d71-4704-8d43-d4249b7bcfc2",
-            "propertyId": "d329b746-1acb-4245-b45d-398efe2c1cd2",
-            "value": "False"
+            "objectId": "e867df6d-e629-458c-b6ae-1892f1db43d1",
+            "propertyId": "180221a4-b89b-4f58-8d67-5f4a0691468d",
+            "value": "7"
         }
     ],
-    "parentObjectId": "4262f5c6-f543-49cf-bc7b-998e8ccd963f",
+    "parentObjectId": "e867df6d-e629-458c-b6ae-1892f1db43d1",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -76,6 +58,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "062dd3b3-3b28-4f82-96c5-07ac4d295f36",
+    "spriteId": "4b6eefcf-7175-4264-8356-19597e17bdec",
     "visible": true
 }

@@ -1,18 +1,28 @@
 {
-    "id": "5ee1b4fe-27e5-4a3e-9d48-c30809439a26",
+    "id": "e867df6d-e629-458c-b6ae-1892f1db43d1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWaterP",
+    "name": "oEarthP",
     "eventList": [
         {
-            "id": "0426f304-1476-43b1-81d8-b342420d6bcc",
+            "id": "4df8ffff-1eac-4bd4-84d1-651885dc5489",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "5f871459-9e61-4336-81aa-2bc90cf4259d",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "5ee1b4fe-27e5-4a3e-9d48-c30809439a26"
+            "m_owner": "e867df6d-e629-458c-b6ae-1892f1db43d1"
+        },
+        {
+            "id": "5fa25471-9584-4577-87cb-bd8ca10daf3d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "e867df6d-e629-458c-b6ae-1892f1db43d1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "54323f21-3071-46ea-9dd0-ec4890aa9120",
+            "id": "180221a4-b89b-4f58-8d67-5f4a0691468d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,22 +52,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "7",
+            "value": "0",
             "varName": "weight",
-            "varType": 0
-        },
-        {
-            "id": "95288c1e-0495-4213-846b-4899e9b0c922",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "180",
-            "varName": "wetFrames",
             "varType": 0
         }
     ],

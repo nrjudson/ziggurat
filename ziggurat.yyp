@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0c068bdb-a8c8-4486-beb3-90bda16e1d1d",
+            "Value": {
+                "id": "22143729-7127-4943-a2fb-1d007aaf17b7",
+                "resourcePath": "sprites\\sEarthP2\\sEarthP2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1284c1fe-eb83-46f8-8e22-54f2f3984a3f",
             "Value": {
                 "id": "13ea35d8-d880-4fa6-90ff-1338cdb65d1f",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "4b6eefcf-7175-4264-8356-19597e17bdec",
+            "Value": {
+                "id": "1779c99c-918a-4b6f-a8f9-d3409fbb9950",
+                "resourcePath": "sprites\\sEarthP1\\sEarthP1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b9c99df-9f1d-4181-89f6-9c2f066a95bd",
             "Value": {
                 "id": "085c99fd-a41e-41ca-ad0d-31b057909e7b",
@@ -148,6 +164,14 @@
                 "id": "5353d31c-21c8-4ed1-843b-c079e0d969e2",
                 "resourcePath": "shaders\\shBurn\\shBurn.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "53d57060-a220-4c6d-a577-0d6730039d98",
+            "Value": {
+                "id": "e144304b-02ff-4539-85f4-5002cb97b9c9",
+                "resourcePath": "objects\\oEarthP2\\oEarthP2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -227,6 +251,14 @@
             "Value": {
                 "id": "62421169-3f7d-4f4b-9025-e2eee4591dae",
                 "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e01eb7d-3a16-480a-b3b2-c1352d98c5c0",
+            "Value": {
+                "id": "70de8435-1034-4792-9f17-d8b4c0194f38",
+                "resourcePath": "objects\\oEarthP3\\oEarthP3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -479,6 +511,14 @@
             }
         },
         {
+            "Key": "dbfc6ccc-f96d-422c-8efc-b9d400695c2c",
+            "Value": {
+                "id": "8b3d3e55-954f-4481-913a-b034628cb448",
+                "resourcePath": "objects\\oEarthP1\\oEarthP1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de07dedd-1521-45d6-b301-856cec84129f",
             "Value": {
                 "id": "4e80a917-5d2d-45d3-b65b-951703cbc626",
@@ -491,6 +531,22 @@
             "Value": {
                 "id": "03cce8fc-acdb-4e94-b67b-51c76cda45d3",
                 "resourcePath": "objects\\oWaterP3\\oWaterP3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e32fb211-6876-45b0-8091-be0014ce5f4f",
+            "Value": {
+                "id": "188d1960-4551-4171-9f1f-ab747d1b0f2b",
+                "resourcePath": "sprites\\sEarthP3\\sEarthP3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e867df6d-e629-458c-b6ae-1892f1db43d1",
+            "Value": {
+                "id": "666508f7-7c2b-40e6-80f9-0e796e9506fe",
+                "resourcePath": "objects\\oEarthP\\oEarthP.yy",
                 "resourceType": "GMObject"
             }
         },
