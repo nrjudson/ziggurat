@@ -275,6 +275,22 @@ if (firingFramesL <= 0  &&
 			image_angle = direction;
 		}
 	}
+	else if (eltL == ELEMENT.WIND)
+	{
+		var inst;
+		if (global.windLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oWindP1);
+		else if (global.windLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oWindP2);
+		else if (global.windLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oWindP3);
+		with (inst)
+		{
+			other.firingFramesL = firingFrames;
+			direction = other.lookDirection;
+			image_angle = direction;
+		}
+	}
 }
 
 //////////////////////////////
@@ -340,6 +356,22 @@ if (firingFramesR <= 0  &&
 			inst = instance_create_layer(x, y, "Magic", oEarthP2);
 		else if (global.earthLevel == 3)
 			inst = instance_create_layer(x, y, "Magic", oEarthP3);
+		with (inst)
+		{
+			other.firingFramesR = firingFrames;
+			direction = other.lookDirection;
+			image_angle = direction;
+		}
+	}
+	else if (eltR == ELEMENT.WIND)
+	{
+		var inst;
+		if (global.windLevel == 1)
+			inst = instance_create_layer(x, y, "Magic", oWindP1);
+		else if (global.windLevel == 2)
+			inst = instance_create_layer(x, y, "Magic", oWindP2);
+		else if (global.windLevel == 3)
+			inst = instance_create_layer(x, y, "Magic", oWindP3);
 		with (inst)
 		{
 			other.firingFramesR = firingFrames;
