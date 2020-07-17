@@ -143,18 +143,18 @@
             }
         },
         {
-            "Key": "4b6eefcf-7175-4264-8356-19597e17bdec",
-            "Value": {
-                "id": "1779c99c-918a-4b6f-a8f9-d3409fbb9950",
-                "resourcePath": "sprites\\sEarthP1\\sEarthP1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "49fdbae8-7505-4a76-b625-8946ec48c6a4",
             "Value": {
                 "id": "d3c7fb4f-e649-4fdb-a7f1-bb663c790f88",
                 "resourcePath": "sprites\\sRPlayer\\sRPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b6eefcf-7175-4264-8356-19597e17bdec",
+            "Value": {
+                "id": "1779c99c-918a-4b6f-a8f9-d3409fbb9950",
+                "resourcePath": "sprites\\sEarthP1\\sEarthP1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "69fac723-71a2-4721-94eb-d036d06fdd1c",
+            "Value": {
+                "id": "6e20ba86-7fea-490b-b10e-ed4078f99bac",
+                "resourcePath": "sprites\\sAimBeam\\sAimBeam.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c7d46d0-27ee-4188-8907-78340f6a4bd0",
             "Value": {
                 "id": "62421169-3f7d-4f4b-9025-e2eee4591dae",
@@ -284,6 +292,14 @@
                 "id": "36e1e49e-7f15-4c74-a0bd-e9bbe9baf646",
                 "resourcePath": "objects\\oDemoLevelManager\\oDemoLevelManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71806819-e5ad-4e03-9962-98850e0b068b",
+            "Value": {
+                "id": "baad225b-ec07-40b1-a2e2-d5f0a9e57828",
+                "resourcePath": "shaders\\shAimBeam\\shAimBeam.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "30b05116-5ca9-43f1-958d-6b53f31bca9c",
                 "resourcePath": "sprites\\sBWall\\sBWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "956dae6a-271a-46cf-b01e-0a1d40bcbb8d",
+            "Value": {
+                "id": "c01a224d-61dd-4d6c-a602-04b67be72286",
+                "resourcePath": "objects\\oAimBeam\\oAimBeam.yy",
+                "resourceType": "GMObject"
             }
         },
         {
