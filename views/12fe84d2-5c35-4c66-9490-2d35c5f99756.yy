@@ -24,12 +24,16 @@
         "dbfc6ccc-f96d-422c-8efc-b9d400695c2c",
         "53d57060-a220-4c6d-a577-0d6730039d98",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "6e01eb7d-3a16-480a-b3b2-c1352d98c5c0",
 <<<<<<< HEAD
         "e5220989-1a90-4aef-82bf-023625951b60"
 =======
         "956dae6a-271a-46cf-b01e-0a1d40bcbb8d"
 >>>>>>> 762c6663b2611d4d23c6db99504ddabca4b56700
+=======
+        "6e01eb7d-3a16-480a-b3b2-c1352d98c5c0"
+>>>>>>> parent of 53ee8cb... Camera added
 =======
         "6e01eb7d-3a16-480a-b3b2-c1352d98c5c0"
 >>>>>>> parent of 53ee8cb... Camera added
