@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "12fe84d2-5c35-4c66-9490-2d35c5f99756",
-            "Value": {
-                "id": "9b5654f6-1326-4a5e-85ab-70552ca5ff2c",
-                "resourcePath": "views\\12fe84d2-5c35-4c66-9490-2d35c5f99756.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1b8a1d84-0e94-42ef-8bcd-2a604dc7a388",
             "Value": {
                 "id": "6837d075-0548-474a-9879-182a0da93e62",
@@ -255,6 +247,14 @@
             }
         },
         {
+            "Key": "69fac723-71a2-4721-94eb-d036d06fdd1c",
+            "Value": {
+                "id": "6e20ba86-7fea-490b-b10e-ed4078f99bac",
+                "resourcePath": "sprites\\sAimBeam\\sAimBeam.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c7d46d0-27ee-4188-8907-78340f6a4bd0",
             "Value": {
                 "id": "62421169-3f7d-4f4b-9025-e2eee4591dae",
@@ -284,6 +284,14 @@
                 "id": "36e1e49e-7f15-4c74-a0bd-e9bbe9baf646",
                 "resourcePath": "objects\\oDemoLevelManager\\oDemoLevelManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71806819-e5ad-4e03-9962-98850e0b068b",
+            "Value": {
+                "id": "baad225b-ec07-40b1-a2e2-d5f0a9e57828",
+                "resourcePath": "shaders\\shAimBeam\\shAimBeam.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -340,6 +348,14 @@
                 "id": "30b05116-5ca9-43f1-958d-6b53f31bca9c",
                 "resourcePath": "sprites\\sBWall\\sBWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "956dae6a-271a-46cf-b01e-0a1d40bcbb8d",
+            "Value": {
+                "id": "c01a224d-61dd-4d6c-a602-04b67be72286",
+                "resourcePath": "objects\\oAimBeam\\oAimBeam.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -572,6 +588,14 @@
                 "id": "2142e70d-eb2d-4304-9f8d-c24674752962",
                 "resourcePath": "sprites\\sRTWall\\sRTWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0f065c8-b15f-4b21-9c35-3dbc33e84678",
+            "Value": {
+                "id": "9fbce8c3-4c3e-47fe-b355-753b4b892a1c",
+                "resourcePath": "views\\f0f065c8-b15f-4b21-9c35-3dbc33e84678.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

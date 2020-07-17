@@ -120,6 +120,18 @@ y = y + vsp;
 ///////////////
 // Animation
 ///////////////
+
+// Running/standing/etc.
+if (hsp != 0 || vsp != 0)
+{
+	sprite_index = sRPlayer;
+}
+else
+{
+	sprite_index = sPlayer;
+}
+
+// Look direction and aim beam
 if (controller)
 {
 	lookDirection = point_direction(0, 0, hraxis, vraxis);
@@ -132,6 +144,11 @@ if ((lookDirection < 90 && lookDirection >= 0) || (lookDirection > 270))
 	image_xscale = 1;
 else
 	image_xscale = -1;
+// Aim beam
+oAimBeam.x = x;
+oAimBeam.y = y;
+oAimBeam.image_angle = lookDirection;
+
 
 //var aimSide = sign(mouse_x - x); // +1 for mouse on the right of the player, -1 otherwise
 //if (aimSide != 0)
@@ -194,7 +211,7 @@ firingFramesL--;
 firingFramesR--;
 
 //////////////////////////////
-// LEFT SIDE
+// FIRE LEFT SIDE
 //////////////////////////////
 
 if (firingFramesL <= 0  && 
@@ -261,7 +278,7 @@ if (firingFramesL <= 0  &&
 }
 
 //////////////////////////////
-// RIGHT SIDE
+// FIRE RIGHT SIDE
 //////////////////////////////
 
 if (firingFramesR <= 0  && 
@@ -330,4 +347,43 @@ if (firingFramesR <= 0  &&
 			image_angle = direction;
 		}
 	}
+}
+
+
+//////////////////////////////
+// Change magic left
+//////////////////////////////
+changeFramesL = max(changeFramesL-1, 0);
+if (changeFramesL <= 0 && 
+	((mouse_check_button(mb_left) && keyboard_check(vk_shift)) 
+		|| gamepad_button_check(0, gp_shoulderl)))
+{
+	changeFramesL = changeFrames;
+	if (eltL == ELEMENT.NONE)
+		eltL = ELEMENT.FIRE;
+	else if (eltL == ELEMENT.FIRE)
+		eltL = ELEMENT.WATER;
+	else if (eltL == ELEMENT.WATER)
+		eltL = ELEMENT.EARTH;
+	else if (eltL == ELEMENT.EARTH)
+		eltL = ELEMENT.WIND;
+	else if (eltL == ELEMENT.WIND)
+		eltL = ELEMENT.NONE;
+}
+changeFramesR = max(changeFramesR-1, 0);
+if (changeFramesR <= 0 && 
+	((mouse_check_button(mb_right) && keyboard_check(vk_shift)) 
+		|| gamepad_button_check(0, gp_shoulderr)))
+{
+	changeFramesR = changeFrames;
+	if (eltR == ELEMENT.NONE)
+		eltR = ELEMENT.FIRE;
+	else if (eltR == ELEMENT.FIRE)
+		eltR = ELEMENT.WATER;
+	else if (eltR == ELEMENT.WATER)
+		eltR = ELEMENT.EARTH;
+	else if (eltR == ELEMENT.EARTH)
+		eltR = ELEMENT.WIND;
+	else if (eltR == ELEMENT.WIND)
+		eltR = ELEMENT.NONE;
 }
