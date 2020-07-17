@@ -125,7 +125,8 @@
         "01adab5a-6028-451b-a874-d32fd7d9bc77",
         "3ad8c6f3-ccc2-4da1-b3db-c4c413869f67",
         "c9256d34-ba25-480a-937e-5aa9dcd2a763",
-        "0d3fdf07-45b8-4b38-ad37-71a4082c2d2f"
+        "0d3fdf07-45b8-4b38-ad37-71a4082c2d2f",
+        "7eb8aed3-d32c-4307-82ab-3be964bc6970"
     ],
     "IsDnD": false,
     "layers": [
@@ -241,13 +242,39 @@
             "visible": true
         },
         {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "AimBeam",
+            "id": "76962759-914a-48d0-870d-7d47200bbd32",
+            "depth": 400,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_1994ACA0","id": "7eb8aed3-d32c-4307-82ab-3be964bc6970","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1994ACA0","objId": "701d576a-173d-41d9-b0e1-569297928f9e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 512,"y": 224}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
             "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
             "name": "CoolWalls",
             "id": "e68f0850-ad33-42a8-9d41-31c4199c4bc1",
             "assets": [
 
             ],
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -270,7 +297,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Wall",
             "id": "dfb36b57-57cf-423a-93eb-ea2efb05cb7e",
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -407,7 +434,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4285399040 },
-            "depth": 600,
+            "depth": 700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

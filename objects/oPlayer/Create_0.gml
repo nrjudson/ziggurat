@@ -32,7 +32,7 @@ eltL = ELEMENT.NONE;
 
 if (!instance_exists(oAimBeam)) // Create the aim beam
 {
-	instance_create_layer(x, y, "Wall", oAimBeam);
+	instance_create_layer(x, y, "AimBeam", oAimBeam);
 }
 
 //audio_sound_pitch(snShot, 0.8);
