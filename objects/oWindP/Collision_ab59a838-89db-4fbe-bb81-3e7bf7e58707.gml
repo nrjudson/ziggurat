@@ -8,4 +8,4 @@ var pushDirection = point_direction(x, y, other.x, other.y);
 other.pushX += lengthdir_x(weight, pushDirection);
 other.pushY += lengthdir_y(weight, pushDirection);
 
-global.windExp+=0.23;
+global.windExp+=0.1;

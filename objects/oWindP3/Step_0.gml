@@ -12,7 +12,7 @@ if (image_angle > 360)
 // Move in a circle
 direction += radialChange;
 if (image_angle > 360)
-	image_angle -=360;
+	image_angle -= 360;
 
 // Slowly angle outward from spiral
 if (--radialChangeFrames == 0)

@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-speed = 90;
-radialChange = 12; // How many degrees per frame to move in a circle
-radialChangeFrames = 120; // How many frames to change the radialChange
-radialChangeFramesStart = 120;
+speed = 20;
+radialChange = 10; // How many degrees per frame to move in a circle
+radialChangeFrames = 100; // How many frames to change the radialChange
+radialChangeFramesStart = 100; // SHOULD BE THE SAME AS radialChangeFrames ABOVE!
