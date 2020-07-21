@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "d7d21847-d308-4503-b384-d5f66793c91a",
+            "Value": {
+                "id": "235193cd-73b6-44cd-8d44-4e18866ca583",
+                "resourcePath": "sprites\\sRoboTurretR\\sRoboTurretR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dbfc6ccc-f96d-422c-8efc-b9d400695c2c",
             "Value": {
                 "id": "8b3d3e55-954f-4481-913a-b034628cb448",
