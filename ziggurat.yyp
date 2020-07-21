@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "75c99b0f-ddd6-4a7c-86dd-9373ad24578f",
+            "Value": {
+                "id": "8843d74b-7744-4a45-9052-337b9e96a5d8",
+                "resourcePath": "sprites\\sRoboTurret\\sRoboTurret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "79f9fc7d-5b9d-4761-ac65-93f2d1593f5a",
             "Value": {
                 "id": "9705927f-d1a3-4287-81b6-9f1df9d68136",
@@ -540,6 +548,14 @@
                 "id": "4eed9396-2e3e-4ec2-84a0-e8202edacf96",
                 "resourcePath": "fonts\\fSporty24\\fSporty24.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "be833b0c-5c30-48c3-8fcb-784adc8deafa",
+            "Value": {
+                "id": "1e3872c4-2d0c-4c39-b512-415984cb5619",
+                "resourcePath": "objects\\oRoboTurret\\oRoboTurret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
